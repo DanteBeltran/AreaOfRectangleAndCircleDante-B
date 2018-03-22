@@ -21,6 +21,12 @@ local areaTextCircle
 -- created a constant for PI
 local PI = 3.14
 
+-- load sounds
+local backgroundMusic = audio.loadSound("Sounds/Background Music.mp3")
+
+--play sounds
+audio.play(backgroundMusic)
+
 -- set the backround colour of my screen. Remember that colours are between 0 and 1
 display.setDefault("background", 28/255, 21/255, 223/255)
 
